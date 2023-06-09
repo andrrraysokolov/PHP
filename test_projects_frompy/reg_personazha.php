@@ -1,5 +1,4 @@
-﻿<?php
-ini_set('default_charset','UTF-8');
+<?php
 echo "Регистрация персонажа\n";
 $reg = 0;
 while ($reg < 1) {
