@@ -1,0 +1,14 @@
+MAILTO=""                                                                                                                                                   
+55 6,8,10,12,14,16,18,23 * * *  cd www/u2136285.isp.regruhosting.ru/cscartfree/pricedwnl && /opt/php/8.0/bin/php /var/www/u2136285/data/myscripts/ptk.php >/
+dev/null 2>&1                                                                                                                                               
+45 6,8,10,12,14,16,18 * * *     cd www/u2136285.isp.regruhosting.ru/cscartfree/pricedwnl && /opt/php/8.0/bin/php /var/www/u2136285/data/myscripts/foxweld.ph
+p >/dev/null 2>&1                                                                                                                                           
+31 6,8,10,12,14,16,18,23 * * *  cd www/u2136285.isp.regruhosting.ru/cscartfree/pricedwnl && /opt/php/8.0/bin/php /var/www/u2136285/data/myscripts/svarog.php
+ >/dev/null 2>&1                                                                                                                                            
+57 6,8,10,12,14,16,18,23 * * *  cd www/u2136285.isp.regruhosting.ru/cscartfree/pricedwnl && /opt/php/8.0/bin/php /var/www/u2136285/data/myscripts/stalex.php
+ >/dev/null 2>&1                                                                                                                                            
+                                                                                                                                                            
+
+
+##лежит, как правило, в /var/spool/cron или /etc/crontab
+##еще кроны пользователя можно отредактировать с помощью команды crontab -e. в shell ispmanager'а открывается в vim, переход в редактирование - insert, сохранить - Esc далее ввести :x
